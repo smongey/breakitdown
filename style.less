@@ -1,5 +1,66 @@
 /* SEAN LESS */
 
-* {  }
+@green: #78db9c;
+@brown: #5e3821;
 
-body { -webkit-font-smoothing: antialiased; }
+
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body { -webkit-font-smoothing: antialiased; color:@brown;}
+
+
+#intro { background: lighten(@green, 25%); text-align: center;
+
+	h1 { text-transform: uppercase; letter-spacing: 1px; margin-top: 100px; }
+	#circle {  }
+	p {  }
+	a#loop { background: #fff; padding: 10px 20px; }
+
+}
+
+
+#nav { background: lighten(@green, 25%) url(../img/nav-bg3.png) repeat; height:56px; 
+
+	.navbar-fixed-top { background: lighten(@green, 25%) url(../img/nav-bg3.png) repeat; height:56px; overflow: hidden; }
+	ul { list-style-type: none; margin:0; padding: 0; }
+	li {  display: inline-block; }
+	li a { display: inline-block; background: @green; padding: 22px 12px; height:56px; text-transform: uppercase; color:#fff; font:700 .9em/1em 'Helvetica Neue', Arial, sans-serif; letter-spacing: 1px; }
+	li a:hover { text-decoration: none; background: darken(@green, 10%); }
+	li a.trials { background: @brown; }
+	li a.home { background: none; }
+	a { -webkit-transition: all ease .2s; }
+
+}
+
+
+#about, #resources, #involved { padding: 70px 0 100px; }
+
+#about { 
+	
+	#profile { -webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	border-radius: 150px; }
+}
+
+#resources { background: lighten(@brown, 73%);
+
+	h1 { text-align: center; }
+	.intro { margin: 50px 0; }
+
+
+}
+
+#involved { background: lighten(@green, 25%);
+
+	h1 { text-align: center; }
+	.intro { margin: 50px 0; }
+
+
+}
+
+
+#footer { color:darken(@green, 10%); 
+
+	a { color:darken(@green, 10%); }
+	li { padding:12px 8px; list-style-type: none; display: inline-block; }
+
+}

@@ -9,7 +9,7 @@
 
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/style.css">
 
 		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	</head>
@@ -18,80 +18,158 @@
 			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 		<![endif]-->
 
-		<!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
+	<section id="intro">
+		<div class="container">
+			
+			<div class="row">
+				<div class="offset2 span8">
+					<h1>Break it Down</h1>
+					<div id="circle">...</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="span4 offset4">
+					<p>Lots of people aren’t using their brown bin. We want to find out why and help you understand the food waste cycle.</p>
+					<a href="#" id="loop">Find Out More</a>
+				</div>
+			</div>
 
-		<div class="navbar navbar-inverse navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</a>
-					<a class="brand" href="#">Project name</a>
-					<div class="nav-collapse collapse">
-						<ul class="nav">
-							<li class="active"><a href="#">Home</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="#contact">Contact</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">Action</a></li>
-									<li><a href="#">Another action</a></li>
-									<li><a href="#">Something else here</a></li>
-									<li class="divider"></li>
-									<li class="nav-header">Nav header</li>
-									<li><a href="#">Separated link</a></li>
-									<li><a href="#">One more separated link</a></li>
-								</ul>
-							</li>
+		</div>
+	</section>
+
+	<section id="nav">
+		<div class="container">
+			<div class="subnav navbar">
+				<div class="navstyle">
+					<div class="container">
+						<ul>
+							<!-- <li><a href="#one">The Food Loop</a></li> -->
+							<li><a class="home" href="#intro">Home</a></li>
+							<li><a href="#about">About the Project</a></li>
+							<li><a href="#resources">Resources</a></li>
+							<li><a href="#involved">Get Involved</a></li>
+							<li class="pull-right"><a class="trials" href="trials.html">User Trials</a></li>
 						</ul>
-						<form class="navbar-form pull-right">
-							<input class="span2" type="text" placeholder="Email">
-							<input class="span2" type="password" placeholder="Password">
-							<button type="submit" class="btn">Sign in</button>
-						</form>
-					</div><!--/.nav-collapse -->
+						
+					</div>
+				</div>
+			</div>				
+		</div>
+	</section>
+
+	<section id="about">
+		<div class="container">
+
+			<div class="row">
+				<div class="offset1 span6">
+					<h3>We are Kate and Liz.</h3><h3>Kate&rsquo;s a product designer and Liz is a chartered accountant come entrepreneur. We share an interest in environmental and sustainable design and run a home accessory and giftware company called <a href="http://www.klickity.ie/">Klickity</a>.</h3></div>
+				<div class="offset1 span3 photo">
+					<img id="profile" src="http://placehold.it/470x470">
+				</div>
+			</div>
+			<div class="row">
+				<div class="offset3 span6">
+					<p>A few years back Kate did a Masters in Sustainable Design and became really interested in food waste recycling. Kate wanted to figure out why people weren't recycling their food waste. So Liz came on board and together we researched food waste systems and people's attitudes towards this type of recycling.</p>
+				</div>
+				<div class="offset3 span6">
+					<p>Like so many things the more research we did the more confused we became. We took all the information we had gathered, broke it down and distilled it into it’s simplest form. We realised that there are probably lots of people out there confused about food waste recycling. So we decided to make this little website to explain some of the key ideas around food waste recycling and help us research and develop our ideas.</p>
+				</div>
+				<div class="offset3 span6">
+					<p>We think good design is the key to getting more people to recycle their food waste. With our mixed design and business backgrounds we hope to create systems or products (not sure which yet to be honest) to help people recycle food waste and benefit the environment.</p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section id="resources">
+		<div class="container">
+
+			<div class="row">
+				<div class="offset4 span4">
+					<h1>Resources</h1>
+				</div>
+			</div>
+			<div class="row intro">
+				<div class="offset3 span6">
+					<p>We don’t like to be bombarded with too much information so we assume you don’t either! We’ve included some links to useful websites with more information about food waste recycling, composting and the environment. Here are our favourites&hellip;</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span4">
+					<img src="http://www.placehold.it/200x200">
+					<h2>Food Waste</h2>
+					<p>We’ve found some interesting websites that explain food waste in more detail and how to prevent it.</p>
+					<p>The Environmental Protection Agency (EPA) has put together some good tips on preventing food waste <a href="http://www.stopfoodwaste.ie" target="_blank">www.stopfoodwaste.ie</a></p>
+					<p>There’s a lot we can learn from WRAP, a not-for-profit based in the UK. Their interactive website helps us take action against food waste. <a href="http://www.lovefoodhatewaste.com" target=_blank>www.lovefoodhatewaste.com</a></p>
+					<p>The United Nations Environment Programme aims to raise awareness and encourages action. <a href="http://www.thinkeatsave.org" target=_blank>www.thinkeatsave.org</a></p>
+				</div>
+				<div class="span4">
+					<img src="http://www.placehold.it/200x200">
+					<h2>Recycling &amp; Composting</h2>
+					<p>Here are a few fascinating websites that will open your eyes to the world of recycling.</p>
+					<p>All you need to know about composting from the Composting Association of Ireland <a href="http://www.cre.ie">www.cre.ie</a></p>
+					<p>WRAP has put together this informative site on recycling and composting <a href="http://www.recyclenow.com" target="_blank">www.recyclenow.com</a></p>
+					<p>The North London Waste Authority has a useful website that can just as easily be applied to Ireland <a href="http://www.wiseuptowaste.org.uk" target="_blank">www.wiseuptowaste.org.uk</a></p>
+				</div>
+				<div class="span4">
+					<img src="http://www.placehold.it/200x200">
+					<h2>Environment &amp; Sustainability</h2>
+					<p>Just in case you want more details about some broader environmental issues&hellip;</p>
+
+<p>Rx3 Rethink, Recycle, Remake has some great resources on their website <a href="http://www.rx3.ie" target="_blank">www.rx3.ie</a></p>
+
+<p>The Environmental Protection Agency has all the facts and figures on Ireland’s waste creation <a href="www.epa.ie" target="_blank">www.epa.ie</a></p>
+
+<p>We love this Australian not-for-profit organisation, we could do with running some of their campaigns here in Ireland <a href="http://www.dosomething.net.au" target="_blank">www.dosomething.net.au</a></p>
+
 				</div>
 			</div>
 		</div>
+	</section>
 
+	<section id="involved">
 		<div class="container">
 
-			<!-- Main hero unit for a primary marketing message or call to action -->
-			<div class="hero-unit">
-				<h1>Hello, world!</h1>
-				<p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-				<p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-			</div>
-
-			<!-- Example row of columns -->
 			<div class="row">
-				<div class="span4">
-					<h2>Heading</h2>
-					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-					<p><a class="btn" href="#">View details &raquo;</a></p>
+				<div class="offset4 span4">
+					<h1>Get Involved</h1>
 				</div>
-				<div class="span4">
-					<h2>Heading</h2>
-					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-					<p><a class="btn" href="#">View details &raquo;</a></p>
-			   </div>
-				<div class="span4">
-					<h2>Heading</h2>
-					<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-					<p><a class="btn" href="#">View details &raquo;</a></p>
+			</div>
+			<div class="row intro">
+				<div class="offset3 span6">
+					<p>Join our mailing list to be kept in the loop about new developments relating to the brown bin and food waste recycling. Don’t worry we won’t bombard you with emails we’ll just send a short and snappy monthly newsletter.</p>
+				</div>
+			</div>
+			<div class="row mailing">
+				<div class="offset3 span6">
+					
+					<!-- mailchimp code -->
+					<form>
+						<input>
+					</form>
+
 				</div>
 			</div>
 
-			<hr>
 
+
+		</div>
+	</section>
+
+	<section id="footer">
+		<div class="container">
 			<footer>
-				<p>&copy; Company 2012</p>
+				<ul>
+					<li>&copy; Klickity 2013</li>
+					<li class="pull-right"><a href="http://www.facebook.com">Facebook</a></li>
+					<li class="pull-right"><a href="http://www.twitter.com">Twitter</a></li>
+					<li class="pull-right"><a href="info@breakitdown.ie">info@breakitdown.ie</a></li>
+				</ul>
 			</footer>
-
-		</div> <!-- /container -->
+		</div>
+	</section>
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
