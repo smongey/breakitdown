@@ -6,8 +6,9 @@ $(document).ready(function(){
 		var elem = $('.subnav');
 
 		if (!elem.attr('data-top')) {
-			if (elem.hasClass('navbar-fixed-top'))
+			if (elem.hasClass('navbar-fixed-top')) {
 				return;
+			}
 			var offset = elem.offset();
 			elem.attr('data-top', offset.top);
 		}
@@ -26,11 +27,13 @@ $(document).ready(function(){
 	$('#home').click(function(){
 		$('#slider').delay(300).fadeOut(300);
 		$('#wheel').delay(600).fadeIn(300);
+		$('#home').removeClass('live');
 	});
 
 	$('#foodloop, #loop').click(function(){
 		$('#wheel').delay(300).fadeOut(300);
 		$('#slider').delay(600).fadeIn(300);
+		$('#home').addClass('live');
 	});
 
 
@@ -62,12 +65,20 @@ $(document).ready(function(){
 
 	if (document.location.href.indexOf('#slider') > -1) {
 		$('#wheel').delay(300).fadeOut(300);
+		$('#home').addClass('live');
 	}
 
+	if (document.location.href.indexOf('#about') > -1) {
+		$('#home').addClass('live');
+	}
 
-	if ((navigator.userAgent.indexOf('iPhone') != -1) || (navigator.userAgent.indexOf('iPod') != -1)) {
+	if (document.location.href.indexOf('compost.html') > -1) {
+		$('#home').addClass('live');
+	}
+
+//	if ((navigator.userAgent.indexOf('iPhone') != -1) || (navigator.userAgent.indexOf('iPod') != -1)) {
 	/* if its iphone, do some stuff */
-	} else {
+//	} else {
 
 		$(function(){
 			$('#intro').css({'height': ( $(window).height() - 56 )});
@@ -92,6 +103,6 @@ $(document).ready(function(){
 		});
 		*/
 
-	}
+//	}
 
 });

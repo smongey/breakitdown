@@ -308,6 +308,9 @@ body {
   background: url(../img/tip.png) 0 0 no-repeat;
   height: 30px;
   padding: 7px 7px 5px 17px;
+  font: 13px/20px 'AdelleSans-Bold', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 #nav {
   background: #ddf6e6 url(../img/nav-bg3.png) repeat;
