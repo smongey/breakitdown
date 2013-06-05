@@ -23,6 +23,48 @@ $(document).ready(function(){
 
 	});
 
+	$('#home').click(function(){
+		$('#slider').delay(300).fadeOut(300);
+		$('#wheel').delay(600).fadeIn(300);
+	});
+
+	$('#foodloop, #loop').click(function(){
+		$('#wheel').delay(300).fadeOut(300);
+		$('#slider').delay(600).fadeIn(300);
+	});
+
+
+	$('#content-slider').royalSlider({
+		autoHeight: false,
+		arrowsNav: true,
+		arrowsNavAutoHide: false,
+		autoScaleSlider: true,
+		autoScaleSliderWidth: 1000,
+		autoScaleSliderHeight: 600,
+		fadeinLoadedSlide: false,
+		imageScaleMode: 'fill',
+		imageAlignCenter:false,
+		globalCaption:true,
+		loop: true,
+		numImagesToPreload: 6,
+		keyboardNavEnabled: true,
+		usePreloader: false
+	});
+
+	$('#navgraphic').cycle({
+		fx: 'fade',
+		speed: 'fast',
+		timeout: 0,
+		next: '.rsArrowRight',
+		prev: '.rsArrowLeft'
+	});
+
+
+	if (document.location.href.indexOf('#slider') > -1) {
+		$('#wheel').delay(300).fadeOut(300);
+	}
+
+
 	if ((navigator.userAgent.indexOf('iPhone') != -1) || (navigator.userAgent.indexOf('iPod') != -1)) {
 	/* if its iphone, do some stuff */
 	} else {
