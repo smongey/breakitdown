@@ -7,9 +7,9 @@
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width">
 		
-		<link href="http://fnt.webink.com/wfs/webink.css/?project=2B257C62-A98D-46E8-AA20-E216E28BC0CB&fonts=646F65BB-7FDB-DF82-711F-897188F11EE8:f=AdelleSans-SemiBold,49E90CB6-0944-72CE-A0E7-8D521C8E676C:f=AdelleSans-Light" rel="stylesheet" type="text/css"/>
+		<link href="http://fnt.webink.com/wfs/webink.css/?project=2B257C62-A98D-46E8-AA20-E216E28BC0CB&fonts=0EFF2364-9D58-0735-E88C-990B2756000B:f=AdelleSans-Bold,646F65BB-7FDB-DF82-711F-897188F11EE8:f=AdelleSans-SemiBold,49E90CB6-0944-72CE-A0E7-8D521C8E676C:f=AdelleSans-Light" rel="stylesheet" type="text/css"/>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+		<!-- <link rel="stylesheet" href="css/bootstrap-responsive.min.css">-->
 		<link rel="stylesheet" href="css/style.css">
 
 		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -30,7 +30,7 @@
 			</div>
 			
 			<div class="row">
-				<div class="span4 offset4">
+				<div class="span6 offset3">
 					<p>Lots of people aren’t using their brown bin. We want to find out why and help you understand the food waste cycle.</p>
 					<a href="#" id="loop">Find Out More</a>
 				</div>
@@ -45,12 +45,12 @@
 				<div class="navstyle">
 					<div class="container">
 						<ul>
-							<!-- <li><a href="#one">The Food Loop</a></li> -->
-							<li><a class="home" href="#intro">Home</a></li>
+							<li><a id="home" href="#intro">Home</a></li>
+							<li><a id="foodloop" href="#intro">The Food Loop</a></li>
 							<li><a href="#about">About the Project</a></li>
 							<li><a href="#resources">Resources</a></li>
 							<li><a href="#involved">Get Involved</a></li>
-							<li class="pull-right"><a class="trials" href="compost.html">What Can I Compost</a></li>
+							<li><a class="trials" href="compost.html">What Can I Compost</a></li>
 						</ul>
 						
 					</div>
@@ -62,21 +62,21 @@
 	<section id="about">
 		<div class="container">
 
-			<div class="row">
-				<div class="offset1 span6">
+			<div class="row top">
+				<div class="span7">
 					<h3>We are Kate and Liz.</h3><h3>Kate&rsquo;s a product designer and Liz is a chartered accountant come entrepreneur. We share an interest in environmental and sustainable design and run a home accessory and giftware company called <a href="http://www.klickity.ie/">Klickity</a>.</h3></div>
-				<div class="offset1 span3 photo">
-					<img id="profile" src="http://placehold.it/470x470">
+				<div class="span4 offset1 photo">
+					<img id="profile" src="img/profile.jpg">
 				</div>
 			</div>
 			<div class="row">
-				<div class="offset3 span6">
+				<div class="offset2 span8">
 					<p>A few years back Kate did a Masters in Sustainable Design and became really interested in food waste recycling. Kate wanted to figure out why people weren't recycling their food waste. So Liz came on board and together we researched food waste systems and people's attitudes towards this type of recycling.</p>
 				</div>
-				<div class="offset3 span6">
+				<div class="offset2 span8">
 					<p>Like so many things the more research we did the more confused we became. We took all the information we had gathered, broke it down and distilled it into it’s simplest form. We realised that there are probably lots of people out there confused about food waste recycling. So we decided to make this little website to explain some of the key ideas around food waste recycling and help us research and develop our ideas.</p>
 				</div>
-				<div class="offset3 span6">
+				<div class="offset2 span8">
 					<p>We think good design is the key to getting more people to recycle their food waste. With our mixed design and business backgrounds we hope to create systems or products (not sure which yet to be honest) to help people recycle food waste and benefit the environment.</p>
 				</div>
 			</div>
@@ -88,18 +88,18 @@
 		<div class="container">
 
 			<div class="row">
-				<div class="offset4 span4">
+				<div class="offset3 span6">
 					<h1>Resources</h1>
 				</div>
 			</div>
 			<div class="row intro">
-				<div class="offset3 span6">
+				<div class="offset2 span8">
 					<p>We don’t like to be bombarded with too much information so we assume you don’t either! We’ve included some links to useful websites with more information about food waste recycling, composting and the environment. Here are our favourites&hellip;</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="span4">
-					<img src="http://www.placehold.it/200x200">
+					<img src="img/resource-1.svg" alt="Food Waste">
 					<h2>Food Waste</h2>
 					<p>We’ve found some interesting websites that explain food waste in more detail and how to prevent it.</p>
 					<p>The Environmental Protection Agency (EPA) has put together some good tips on preventing food waste <a href="http://www.stopfoodwaste.ie" target="_blank">www.stopfoodwaste.ie</a></p>
@@ -107,7 +107,7 @@
 					<p>The United Nations Environment Programme aims to raise awareness and encourages action. <a href="http://www.thinkeatsave.org" target=_blank>www.thinkeatsave.org</a></p>
 				</div>
 				<div class="span4">
-					<img src="http://www.placehold.it/200x200">
+					<img src="img/resource-2.svg" alt="Recycling & Composting">
 					<h2>Recycling &amp; Composting</h2>
 					<p>Here are a few fascinating websites that will open your eyes to the world of recycling.</p>
 					<p>All you need to know about composting from the Composting Association of Ireland <a href="http://www.cre.ie">www.cre.ie</a></p>
@@ -115,7 +115,7 @@
 					<p>The North London Waste Authority has a useful website that can just as easily be applied to Ireland <a href="http://www.wiseuptowaste.org.uk" target="_blank">www.wiseuptowaste.org.uk</a></p>
 				</div>
 				<div class="span4">
-					<img src="http://www.placehold.it/200x200">
+					<img src="img/resource-3.svg" alt="Environment & Sustainability">
 					<h2>Environment &amp; Sustainability</h2>
 					<p>Just in case you want more details about some broader environmental issues&hellip;</p>
 
@@ -134,22 +134,28 @@
 		<div class="container">
 
 			<div class="row">
-				<div class="offset4 span4">
+				<div class="offset3 span6">
 					<h1>Get Involved</h1>
 				</div>
 			</div>
 			<div class="row intro">
-				<div class="offset3 span6">
+				<div class="offset2 span8">
 					<p>Join our mailing list to be kept in the loop about new developments relating to the brown bin and food waste recycling. Don’t worry we won’t bombard you with emails we’ll just send a short and snappy monthly newsletter.</p>
 				</div>
 			</div>
 			<div class="row mailing">
-				<div class="offset3 span6">
+				<div class="offset2 span8">
 					
-					<!-- mailchimp code -->
-					<form>
-						<input>
+					<div id="mc_embed_signup">
+					<form action="http://breakitdown.us7.list-manage.com/subscribe/post?u=12566ab09f924ed5ac019ed88&amp;id=fa4f53dc06" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						
+						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="submit">
 					</form>
+					</div>
+
+					<!--End mc_embed_signup-->
+
 
 				</div>
 			</div>
@@ -164,9 +170,9 @@
 			<footer>
 				<ul>
 					<li>&copy; Klickity 2013</li>
-					<li class="pull-right"><a href="http://www.facebook.com">Facebook</a></li>
-					<li class="pull-right"><a href="http://www.twitter.com">Twitter</a></li>
-					<li class="pull-right"><a href="info@breakitdown.ie">info@breakitdown.ie</a></li>
+					<li class="pull-right"><a href="https://www.facebook.com/Klickity">Facebook</a></li>
+					<li class="pull-right"><a href="https://twitter.com/KlickityDesign">Twitter</a></li>
+					<li class="pull-right"><a href="hello@breakitdown.ie">hello@breakitdown.ie</a></li>
 				</ul>
 			</footer>
 		</div>
@@ -181,7 +187,7 @@
 		<script src="js/main.js"></script>
 
 		<script>
-			var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+			var _gaq=[['_setAccount','UA-41489042-1'],['_trackPageview']];
 			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
 			g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 			s.parentNode.insertBefore(g,s)}(document,'script'));

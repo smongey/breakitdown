@@ -12,11 +12,14 @@ $(document).ready(function(){
 			elem.attr('data-top', offset.top);
 		}
 
-		if (elem.attr('data-top') - elem.outerHeight() <= $(this).scrollTop() - $(elem).outerHeight())
+		if (elem.attr('data-top') - elem.outerHeight() <= $(this).scrollTop() - $(elem).outerHeight()) {
 			elem.addClass('navbar-fixed-top');
-
-		else
+			$('#home').addClass('live');
+		}
+		else {
 			elem.removeClass('navbar-fixed-top');
+			$('#home').removeClass('live');
+		}
 
 	});
 
@@ -46,7 +49,7 @@ $(document).ready(function(){
 
 		});
 		*/
-		
+
 	}
 
 });
