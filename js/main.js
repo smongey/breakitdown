@@ -38,6 +38,15 @@ $(document).ready(function(){
 			duration: 400
 		});
 
+
+		/*
+		$('body').mousemove(function(e){
+			var mousePos = e.pageX;
+			console.log(mousePos);
+
+		});
+		*/
+		
 	}
 
 });
