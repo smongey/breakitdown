@@ -97,7 +97,6 @@ body {
   margin: 0 auto;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-top: 170px;
 }
 #intro #wheel #circle {
   margin: -200px auto 20px;
@@ -215,13 +214,14 @@ body {
 #intro #slider {
   width: 100%;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 5% 0 0 0;
   height: 500px;
 }
 #intro #slider #loopnav {
   position: absolute;
   left: 30px;
   top: 30px;
+  padding: 3% 0 0 0;
 }
 #intro #slider #loopnav #navgraphic {
   display: block;
@@ -301,6 +301,7 @@ body {
   margin-top: 230px;
 }
 #intro #slider .contentSlider .rsCaption {
+  display: block;
   position: absolute;
   z-index: 8888;
   left: 100px;

@@ -51,7 +51,8 @@ $(document).ready(function(){
 		loop: true,
 		numImagesToPreload: 6,
 		keyboardNavEnabled: true,
-		usePreloader: false
+		usePreloader: false,
+		sliderDrag: false
 	});
 
 	$('#navgraphic').cycle({
@@ -81,12 +82,15 @@ $(document).ready(function(){
 //	} else {
 
 		$(function(){
-			$('#intro').css({'height': ( $(window).height() - 56 )});
+			$('#intro, #wheel').css({'height': ( $(window).height() - 56 )});
 			//$('#intro h1').css({'top': (($(window).height()) /2-140)}).css({'left': (($(window).width()) /2-300)});
 
+			$('#wheel h1').css({'margin-top': ( ($(window).height() / 3 ))});
+
 			$(window).bind('resize', function(){
-				$('#intro').css({'height': ( $(window).height() - 56 )});
+				$('#intro, #wheel').css({'height': ( $(window).height() - 56 )});
 				//$('#intro h1').css({'top': (($(window).height()) /2-140)}).css({'left': (($(window).width()) /2-300)});
+				$('#wheel h1').css({'margin-top': ( $(window).height() / 3 )});
 			});
 		});
 

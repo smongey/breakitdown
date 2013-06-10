@@ -64,7 +64,7 @@ body { -webkit-font-smoothing: antialiased; color:@brown; font-family: @Adelle; 
 
 	#wheel { position: absolute; z-index: 9999; background: lighten(@green, 25%); width:100%;
 		.span8 { }
-		h1 { position:relative; z-index: 999; display:block; width:660px; height:65px; text-indent: -9999px; background: url(../img/breakitdown.svg); margin: 0 auto; text-transform: uppercase; letter-spacing: 1px; margin-top: 170px; }
+		h1 { position:relative; z-index: 999; display:block; width:660px; height:65px; text-indent: -9999px; background: url(../img/breakitdown.svg); margin: 0 auto; text-transform: uppercase; letter-spacing: 1px; }
 		#circle { margin:-200px auto 20px; width:340px; height:340px; background: url(../img/circle.svg); animation:nextStep 4s infinite; -webkit-animation:nextStep 4s infinite; }
 
 		@-webkit-keyframes nextStep
@@ -91,9 +91,9 @@ body { -webkit-font-smoothing: antialiased; color:@brown; font-family: @Adelle; 
 		a#loop { padding: 10px 20px; display: block; width:190px; height:35px; margin:0 auto; background: url(../img/arrow.svg); text-transform: uppercase; color:@green; font:16px/20px @Adelle-Bold; letter-spacing: 1px; }
 	}
 
-	#slider { width:100%; margin:0 auto; padding: 20px 0; height:500px; 
+	#slider { width:100%; margin:0 auto; padding: 5% 0 0 0; height:500px; 
 
-		#loopnav { position: absolute; left:30px; top:30px;
+		#loopnav { position: absolute; left:30px; top:30px; padding: 3% 0 0 0;
 			#navgraphic { display: block; width:100px; height:100px; overflow: hidden;
 				img { position: relative; left:0px; top:0px; }
 			}
@@ -110,7 +110,7 @@ body { -webkit-font-smoothing: antialiased; color:@brown; font-family: @Adelle; 
 			div.slide4 { background: url(../img/slide4.png) center center no-repeat; h2 { margin-top: 150px; } }
 			div.slide5 { background: url(../img/slide5.png) center center no-repeat; h2 { margin-top: 20px; } }
 			div.slide6 { background: url(../img/slide6.png) center center no-repeat; h2 { margin-top: 230px; } }
-			.rsCaption { position: absolute; z-index: 8888; left:100px; top:30px; background: url(../img/tip.png) 0 0 no-repeat; height:30px; padding: 7px 7px 5px 17px; font:13px/20px @Adelle-Bold; text-transform: uppercase; letter-spacing: 1px; }
+			.rsCaption { display: block; position: absolute; z-index: 8888; left:100px; top:30px; background: url(../img/tip.png) 0 0 no-repeat; height:30px; padding: 7px 7px 5px 17px; font:13px/20px @Adelle-Bold; text-transform: uppercase; letter-spacing: 1px; }
 		}
 
 	}
