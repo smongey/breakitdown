@@ -36,6 +36,17 @@ $(document).ready(function(){
 		$('#home').addClass('live');
 	});
 
+	$('.kate').hover(function(){
+		$('.photo img').animate({ marginLeft: -10 }, 200);
+	}, function(){
+		$('.photo img').animate({ marginLeft: 0 }, 200);
+	});
+
+	$('.liz').hover(function(){
+		$('.photo img').animate({ marginLeft: 10 }, 200);
+	}, function(){
+		$('.photo img').animate({ marginLeft: 0 }, 200);
+	});
 
 	$('#content-slider').royalSlider({
 		autoHeight: false,

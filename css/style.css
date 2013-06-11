@@ -374,6 +374,31 @@ body {
 #about .top {
   margin-bottom: 50px;
 }
+#about .top .kate {
+  padding-right: 20px;
+}
+#about .top .kate:hover span {
+  color: #78db9c;
+  -webkit-transition: all ease .2s;
+  -moz-transition: all ease .2s;
+  -ms-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
+}
+#about .top .liz {
+  padding-left: 20px;
+}
+#about .top .liz:hover span {
+  color: #78db9c;
+  -webkit-transition: all ease .2s;
+  -moz-transition: all ease .2s;
+  -ms-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
+}
+#about .top p {
+  font: 19px/27px 'AdelleSans-SemiBold', Arial, sans-serif;
+}
 #about h3 {
   font: 26px/34px 'AdelleSans-Bold', Arial, sans-serif;
   letter-spacing: .5px;
@@ -398,7 +423,7 @@ body {
   border-radius: 150px;
 }
 #about .span8 p {
-  font: 19px/27px 'AdelleSans-Light', Arial, sans-serif;
+  font: 19px/27px 'AdelleSans-SemiBold', Arial, sans-serif;
   margin-bottom: 20px;
 }
 #resources {
