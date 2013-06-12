@@ -481,6 +481,7 @@ body {
   color: #5e3821;
 }
 #compost .span6 .accordion-group {
+  outline: none;
   border: none;
   border-bottom: 1px solid #33cc99;
   -webkit-border-radius: 0px;
@@ -504,6 +505,7 @@ body {
 }
 #compost .span6 a {
   text-decoration: none;
+  outline: none;
 }
 #compost .span6 a h3 {
   text-decoration: none;

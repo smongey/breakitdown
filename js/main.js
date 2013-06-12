@@ -19,7 +19,6 @@ $(document).ready(function(){
 		}
 		else {
 			elem.removeClass('navbar-fixed-top');
-			$('#home').removeClass('live');
 		}
 
 	});
@@ -63,7 +62,8 @@ $(document).ready(function(){
 		numImagesToPreload: 6,
 		keyboardNavEnabled: true,
 		usePreloader: false,
-		sliderDrag: false
+		sliderDrag: false,
+		navigateByClick: false
 	});
 
 	$('#navgraphic').cycle({
