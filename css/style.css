@@ -368,8 +368,7 @@ body {
 #about,
 #resources,
 #involved,
-#can,
-#cant {
+#compost {
   padding: 100px 0 130px;
 }
 #about .top {
@@ -467,89 +466,65 @@ body {
   text-decoration: none;
   border-bottom: 1px solid #33cc99;
 }
-#can {
-  background: #47d1a3;
-}
-#can .span6 {
-  margin-bottom: 30px;
-}
-#can h1 {
-  text-align: center;
-  color: #fff;
-  font: 56px/60px 'AdelleSans-Bold', Arial, sans-serif;
-}
-#can .intro {
-  margin: 50px 0;
-}
-#can .span8 p {
-  font: 19px/27px 'AdelleSans-Light', Arial, sans-serif;
-  margin-bottom: 20px;
-}
-#can .span4 {
-  padding: 0 10px;
-}
-#can .span4 img {
-  display: block;
-  margin: 0 auto 30px;
-}
-#can .span4 h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  color: #fff;
-  font: 36px/40px 'AdelleSans-Bold', Arial, sans-serif;
-  height: 60px;
-}
-#can .span4 p {
-  font: 17px/25px 'AdelleSans-Light', Arial, sans-serif;
-  margin-bottom: 20px;
-}
-#can .span4 p a {
-  color: #29a37a;
-}
-#can .span4 p a:hover {
-  text-decoration: none;
-  border-bottom: 1px solid #33cc99;
-}
-#cant {
+#compost {
   background: #f8f0ec;
 }
-#cant .span6 {
-  margin-bottom: 30px;
+#compost .span6 {
+  padding: 0 20px;
 }
-#cant h1 {
+#compost .span6 h2 {
   text-align: center;
+  color: #33cc99;
+  font: 46px/50px 'AdelleSans-Bold', Arial, sans-serif;
+}
+#compost .span6 h2 span {
   color: #5e3821;
-  font: 56px/60px 'AdelleSans-Bold', Arial, sans-serif;
 }
-#cant .intro {
-  margin: 50px 0;
+#compost .span6 .accordion-group {
+  border: none;
+  border-bottom: 1px solid #33cc99;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
 }
-#cant .span8 p {
-  font: 19px/27px 'AdelleSans-Light', Arial, sans-serif;
-  margin-bottom: 20px;
+#compost .span6 img {
+  display: inline-block;
+  margin-right: 20px;
 }
-#cant .span4 {
-  padding: 0 10px;
+#compost .span6 li {
+  list-style-type: none;
+  font: 17px/25px 'AdelleSans-Light', Arial, sans-serif;
+  margin-bottom: 5px;
 }
-#cant .span4 img {
-  display: block;
-  margin: 0 auto 30px;
-}
-#cant .span4 h2 {
-  text-align: center;
-  margin-bottom: 30px;
+#compost .span6 h3 {
+  display: inline-block;
+  text-align: left;
   color: #5e3821;
-  font: 36px/40px 'AdelleSans-Bold', Arial, sans-serif;
-  height: 60px;
+  font: 32px/38px 'AdelleSans-Bold', Arial, sans-serif;
 }
-#cant .span4 p {
+#compost .span6 a {
+  text-decoration: none;
+}
+#compost .span6 a h3 {
+  text-decoration: none;
+  -webkit-transition: color ease .2s;
+  -moz-transition: color ease .2s;
+  -ms-transition: color ease .2s;
+  -o-transition: color ease .2s;
+  transition: color ease .2s;
+}
+#compost .span6 a h3:hover {
+  color: #33cc99;
+  text-decoration: none;
+}
+#compost .span6 p {
   font: 17px/25px 'AdelleSans-Light', Arial, sans-serif;
   margin-bottom: 20px;
 }
-#cant .span4 p a {
+#compost .span6 p a {
   color: #29a37a;
 }
-#cant .span4 p a:hover {
+#compost .span6 p a:hover {
   text-decoration: none;
   border-bottom: 1px solid #33cc99;
 }

@@ -92,22 +92,29 @@ $(document).ready(function(){
 	/* if its iphone, do some stuff */
 //	} else {
 
-		$(function(){
+	$(function(){
+		$('#intro, #wheel').css({'height': ( $(window).height() - 56 )});
+		//$('#intro h1').css({'top': (($(window).height()) /2-140)}).css({'left': (($(window).width()) /2-300)});
+
+		$('#wheel h1').css({'margin-top': ( ($(window).height() / 3 ))});
+
+		$(window).bind('resize', function(){
 			$('#intro, #wheel').css({'height': ( $(window).height() - 56 )});
 			//$('#intro h1').css({'top': (($(window).height()) /2-140)}).css({'left': (($(window).width()) /2-300)});
-
-			$('#wheel h1').css({'margin-top': ( ($(window).height() / 3 ))});
-
-			$(window).bind('resize', function(){
-				$('#intro, #wheel').css({'height': ( $(window).height() - 56 )});
-				//$('#intro h1').css({'top': (($(window).height()) /2-140)}).css({'left': (($(window).width()) /2-300)});
-				$('#wheel h1').css({'margin-top': ( $(window).height() / 3 )});
-			});
+			$('#wheel h1').css({'margin-top': ( $(window).height() / 3 )});
 		});
+	});
 
+	if($('body').hasClass('compost')){
+
+
+	} else {
 		$.localScroll({
 			duration: 400
 		});
+	}
+
+
 
 
 		/*

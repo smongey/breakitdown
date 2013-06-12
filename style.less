@@ -135,7 +135,7 @@ body { -webkit-font-smoothing: antialiased; color:@brown; font-family: @Adelle; 
 }
 
 
-#about, #resources, #involved, #can, #cant { padding: 100px 0 130px; }
+#about, #resources, #involved, #compost { padding: 100px 0 130px; }
 
 #about { 
 
@@ -195,47 +195,28 @@ body { -webkit-font-smoothing: antialiased; color:@brown; font-family: @Adelle; 
 	}
 }
 
+#compost { background: lighten(@brown, 70%);
 
-#can { background: lighten(@green, 5%);
-
-	.span6 { margin-bottom: 30px; }
-	h1 { text-align: center; color:#fff; font:56px/60px @Adelle-Bold; }
-	.intro { margin: 50px 0; }
-
-	.span8 {
-		p { font:19px/27px @Adelle; margin-bottom: 20px; }
-	}
-
-	.span4 { padding:0 10px;
-		img { display:block; margin:0 auto 30px; }
-		h2 { text-align: center; margin-bottom: 30px; color:#fff; font:36px/40px @Adelle-Bold; height:60px; }
+	.span6 { padding:0 20px;
+		h2 { text-align: center; color: @green; font:46px/50px @Adelle-Bold; span { color:@brown; } }
+		.accordion-group { border: none; border-bottom: 1px solid @green; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; }
+		img { display: inline-block; margin-right: 20px; }
+		li { list-style-type:none; font:17px/25px @Adelle; margin-bottom: 5px;  }
+		h3 { display: inline-block; text-align: left; color:@brown; font:32px/38px @Adelle-Bold; }
+		a { text-decoration: none; }
+		a h3 { text-decoration: none; -webkit-transition: color ease .2s;
+		-moz-transition: color ease .2s;
+		-ms-transition: color ease .2s;
+		-o-transition: color ease .2s;
+		transition: color ease .2s; }
+		a h3:hover { color: @green; text-decoration: none; }
 		p { font:17px/25px @Adelle; margin-bottom: 20px; 
 			a { color:darken(@green, 10%); }
 			a:hover { text-decoration: none; border-bottom: 1px solid @green; }
 		}
 	}
+
 }
-
-#cant { background: lighten(@brown, 70%);
-
-	.span6 { margin-bottom: 30px; }
-	h1 { text-align: center; color:@brown; font:56px/60px @Adelle-Bold; }
-	.intro { margin: 50px 0; }
-
-	.span8 {
-		p { font:19px/27px @Adelle; margin-bottom: 20px; }
-	}
-
-	.span4 { padding:0 10px;
-		img { display:block; margin:0 auto 30px; }
-		h2 { text-align: center; margin-bottom: 30px; color:@brown; font:36px/40px @Adelle-Bold; height:60px; }
-		p { font:17px/25px @Adelle; margin-bottom: 20px; 
-			a { color:darken(@green, 10%); }
-			a:hover { text-decoration: none; border-bottom: 1px solid @green; }
-		}
-	}
-}
-
 
 
 #involved { background:  lighten(@green, 40%);
